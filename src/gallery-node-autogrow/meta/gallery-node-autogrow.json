@@ -1,0 +1,7 @@
+{
+    "gallery-node-autogrow": {
+        "requires": [
+            "yui-base"
+        ]
+    }
+}

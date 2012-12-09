@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-node-autogrow",
+    "displayName": "Gallery: gallery-node-autogrow",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "josephj" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}
