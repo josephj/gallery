@@ -4,7 +4,8 @@
         "gallery-node-autogrow": {
             "jsfiles": [
                 "js/gallery-node-autogrow.js"
-            ]
+            ],
+            "skinnable": true
         }
     }
 }
