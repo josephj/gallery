@@ -1,7 +1,10 @@
 {
     "gallery-node-autogrow": {
         "requires": [
-            "yui-base"
+            "node-style",
+            "event-valuechange",
+            "classnamemanager",
+            "plugin"
         ]
     }
 }
