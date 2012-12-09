@@ -14,11 +14,11 @@
  *     </script>
  *
  *  @module  node-autogrow
- *  @require node-base, classnamemanager, plugin, event-valuechange
  */
 
 var _getClassName,
-    _createBox;
+    _createBox,
+    NodeAutoGrow;
 
 /**
  * A shortcut of Y.ClassNameManager.getClassName method.
@@ -70,10 +70,10 @@ _createBox = function (node) {
  * @constructor
  * @param {Object} config attribute object
  */
-function NodeAutoGrow(config) {
+NodeAutoGrow = function (config) {
     this._node = config.host;
     NodeAutoGrow.superclass.constructor.apply(this, arguments);
-}
+};
 
 NodeAutoGrow.MIRROR_HTML = "<pre><span></span><br></pre>";
 
@@ -128,9 +128,9 @@ Y.extend(NodeAutoGrow, Y.Plugin.Base, {
         mirrorNode.setHTML(textNode.getHTML());
 
         // Bind event.
-        textNode.on("valuechange", function (e) {
+        textNode.on("valuechange", function () {
             mirrorNode.set("text", this.get("value"));
-        })
+        });
 
     }
 });
