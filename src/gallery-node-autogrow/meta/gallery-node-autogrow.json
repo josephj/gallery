@@ -1,6 +1,7 @@
 {
     "gallery-node-autogrow": {
         "requires": [
+            "node-pluginhost",
             "node-style",
             "event-valuechange",
             "classnamemanager",
