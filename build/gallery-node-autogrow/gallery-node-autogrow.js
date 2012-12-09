@@ -8,14 +8,14 @@ YUI.add('gallery-node-autogrow', function (Y, NAME) {
  *
  *     <link rel="stylesheet" href="assets/node-autogrow.css">
  *     <script type="text/javascript" src="http://yui.yahooapis.com/3.7.3/build/yui/yui-min.js"></script>
- *     <script type="text/javascript" src="node-autogrow.js"></script>
+ *     <script type="text/javascript" src="gallery-node-autogrow.js"></script>
  *     <script>
- *     YUI().use("node-pluginhost", "node-autogrow", function (Y) {
+ *     YUI().use("gallery-node-autogrow", function (Y) {
  *         Y.one("textarea").plug(Y.NodeAutoGrow);
  *     });
  *     </script>
  *
- *  @module  node-autogrow
+ *  @module gallery-node-autogrow
  */
 
 var _getClassName,
@@ -135,11 +135,11 @@ Y.extend(NodeAutoGrow, Y.Plugin.Base, {
     }
 });
 
-NodeAutoGrow.NAME = "nodeAutogrow";
-NodeAutoGrow.NS = "autoGrow";
+NodeAutoGrow.NAME = "autogrow";
+NodeAutoGrow.NS = "AutoGrow";
 
 Y.namespace("Plugin");
 Y.Plugin.NodeAutoGrow = NodeAutoGrow;
 
 
-}, '@VERSION@', {"requires": ["node-style", "event-valuechange", "classnamemanager", "plugin"]});
+}, '@VERSION@', {"requires": ["node-pluginhost", "node-style", "event-valuechange", "classnamemanager", "plugin"]});
