@@ -35,7 +35,7 @@ YUI({
             }
         }
     }
-}).use('test-console', 'test', 'gallery-node-autogrow-tests', function (Y) {
+}).use('gallery-node-autogrow-tests', 'test-console', function (Y) {
     (new Y.Test.Console()).render('#logger');
     Y.Test.Runner.setName('gallery-node-autogrow');
     Y.Test.Runner.run();
