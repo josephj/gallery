@@ -1,0 +1,13 @@
+{
+    "gallery-scroll-pagination": {
+        "requires": [
+            "base",
+            "node-base",
+            "node-screen",
+            "event-resize",
+            "node-event-delegate",
+            "datasource-io",
+            "datasource-jsonschema"
+        ]
+    }
+}

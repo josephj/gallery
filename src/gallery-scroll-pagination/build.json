@@ -1,0 +1,10 @@
+{
+    "name": "gallery-scroll-pagination",
+    "builds": {
+        "gallery-scroll-pagination": {
+            "jsfiles": [
+                "js/gallery-scroll-pagination.js"
+            ]
+        }
+    }
+}
