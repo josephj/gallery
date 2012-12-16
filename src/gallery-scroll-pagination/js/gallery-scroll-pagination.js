@@ -5,7 +5,7 @@
  * It has various namings such as Continuous Scrolling, Infinite Scroll,
  * and the name we use, Scroll Pagination.
  *
- * @module scroll-pagination
+ * @module gallery-scroll-pagination
  * @requires base
  */
 var MODULE_ID           = "scroll-pagination",
